@@ -1,0 +1,8 @@
+.vscode
+*__pycache__
+no_arduino
+serie*
+arduino/.pio/
+arduino/include/
+arduino/lib/
+arduino/test/
