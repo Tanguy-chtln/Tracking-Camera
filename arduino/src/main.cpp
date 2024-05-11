@@ -9,7 +9,7 @@
 
 FspTimer timer_for_filter;
 
-const int ena_pin[2] = {7, 13}, dir_pin[2] = {4, 12}, pul_pin[2] = {2,8}; int pul_value[2] = {0,0};
+const int ena_pin[2] = {4, 10}, dir_pin[2] = {3, 9}, pul_pin[2] = {2,8}; int pul_value[2] = {0,0};
 // const int SAMPLE_PIN = 7;
 // const int PRINT_PIN = 8;
 void motor_on(bool on, int motorId){ digitalWrite(ena_pin[motorId], on ? LOW: HIGH); }
